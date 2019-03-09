@@ -6,7 +6,7 @@ import SeisPreguntasApp from './SeisPreguntasApp';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-    <BrowserRouter>    
+    <BrowserRouter basename={process.env.PUBLIC_URL}>    
         <SeisPreguntasApp />
     </BrowserRouter>, 
     document.getElementById('root')
