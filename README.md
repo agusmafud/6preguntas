@@ -1,4 +1,5 @@
 ![6preguntas](6preguntas.png?raw=true "6preguntas")
+
 6Preguntas es un sitio web de catas de vino virtuales y comunitarias, construido en React.
 
 ### Live (ongoing) Demo: [https://agusmafud.github.io/6preguntas/](https://agusmafud.github.io/6preguntas/)
