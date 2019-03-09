@@ -1,5 +1,4 @@
 ![6preguntas](6preguntas.png?raw=true "6preguntas")
-# 6Preguntas
 
 6Preguntas es un sitio web de catas virtuales comunitarias construido con React.
 
