@@ -1,68 +1,29 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![6preguntas](6preguntas.png?raw=true "6preguntas")
 
-## Available Scripts
+6Preguntas es un sitio web de catas virtuales comunitarias construido con React.
 
-In the project directory, you can run:
+### Live (ongoing) Demo: [https://agusmafud.github.io/6preguntas/](https://agusmafud.github.io/6preguntas/)
+* (Ongoing 50%) Capa visual
+* (TBD) Comportamiento
+* (TBD) Persistencia
 
-### `npm start`
+### Aspectos claves
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* Interfase visual construida con los lineamientos de diseño material de Google.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+* Progressive web app: Carga rápida (incluso con redes débiles), ícono en la pantalla principal y se carga como experiencia de pantalla completa y de primer nivel. También puede funcionar offline y envíar notificaciones push relevantes, tal como lo hace una app nativa.
 
-### `npm test`
+* Acceso a la cámara del dispositivo (sólo Safari en dispositivos Apple). Capacidad de edición de la imagen obtenida.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* (TBD) Serverless App: Se utilizarán los servicios en la nube de Amazon para el almacenamiento de la base de datos.
 
-### `npm run build`
+### Construido con
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+* [React](https://reactjs.org/) - React es una libería de Javascript para construir interfases de usuario, utilizando una arquitectura modular de componentes encapsulados.
+* [Material-UI](https://material-ui.com/) - Componentes visuales de React que implementan la normativa de diseño Material Design de Google.
+* [Formik](https://jaredpalmer.com/formik/) - Usado en todos los forms. Permite un manejo simple y adaptable en función de las necesidades del sitio.
+* [react-html5-camera-photo](https://www.npmjs.com/package/react-html5-camera-photo/) - Acceso a la cámara del dispositivo a través de los elementos video y canvas de HTML5.
+* [react-file-reader-input](https://github.com/ngokevin/react-file-reader-input/) - Componente en React personalizable para el input de un archivo.
+* [react-avatar-editor](https://github.com/mosch/react-avatar-editor/) - Interfaz de usuario para edición de imágenes.
+* [React Reveal](https://www.react-reveal.com/) - Libería en React para animaciones de alta performance.
+* [React Swipeable Views](https://react-swipeable-views.com/) - Componentes en React para vistas "swipeables".
