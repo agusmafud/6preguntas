@@ -9,11 +9,11 @@
 
 ### Aspectos claves
 
-* Interfase visual construida con los lineamientos de diseño material de Google.
+* Interfase visual construida acorde a los lineamientos del diseño material de Google.
 
-* Progressive web app: Carga rápida (incluso con redes débiles), ícono en la pantalla principal y se carga como experiencia de pantalla completa y de primer nivel. También puede funcionar offline y envíar notificaciones push relevantes, tal como lo hace una app nativa.
+* Progressive web app: Carga rápida (incluso con redes débiles), ícono en la pantalla principal y carga como experiencia de pantalla completa y de primer nivel. Puede funcionar offline y envíar notificaciones push relevantes, tal como lo hace una app nativa.
 
-* Acceso a la cámara del dispositivo (sólo Safari en dispositivos Apple). Capacidad de edición de la imagen obtenida.
+* Acceso a la cámara de fotos del dispositivo (sólo con Safari en dispositivos Apple). Posibilidad de editar la imagen obtenida en la misma app.
 
 * (TBD) Serverless App: Se utilizarán los servicios en la nube de Amazon para el almacenamiento de la base de datos.
 
