@@ -1,6 +1,6 @@
 {
   "name": "6preguntas-app",
-  "homepage": "https://agusmafud.github.io/6preguntas/",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
